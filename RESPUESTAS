@@ -1,0 +1,35 @@
+Pregunta Bonus 1 
+Un archivo README es útil para comunicar información importante sobre las expectativas del proyecto y ayuda a administrar las contribuciones, siendo este el primer elemento que verá un visitante cuando entre al repositorio. 
+Los archivos README incluyen información sobre:
+Qué hace el proyecto.
+Por qué el proyecto es útil.
+Cómo pueden comenzar los usuarios con el proyecto.
+Dónde pueden recibir ayuda los usuarios con tu proyecto
+Quién mantiene y contribuye con el proyecto.
+Siendo esta una manera muy útil de introducir y generar aún más interés en el proyecto a las personas externas al equipo
+
+Fuente:  https://docs.github.com/es/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+
+Pregunta Bonus 2 
+Un archivo Makefile:
+Permite al usuario final construir e instalar su paquete sin conocer los detalles de cómo se hace, porque estos detalles se registran en el archivo makefile proporcionado.
+Determina automáticamente qué archivos necesita actualizar, basándose en los archivos fuente modificados. También determina automáticamente el orden correcto de actualización, en caso de que un archivo no fuente dependa de otro.
+Como resultado, si modifica algunos archivos fuente y luego ejecuta Make, no es necesario recompilar todo el programa. Solo actualiza los archivos no fuente que dependen directa o indirectamente de los archivos fuente modificados.
+Make no se limita a ningún lenguaje en particular. Para cada archivo no fuente del programa, el makefile especifica los comandos de shell para procesarlo. Estos comandos pueden ejecutar un compilador para generar un archivo objeto, el enlazador para generar un ejecutable, aractualizar una biblioteca o usar TeX o Makeinfo para dar formato a la documentación.
+Make no se limita a compilar un paquete. También puedes usar Make para controlar la instalación o desinstalación de un paquete, generar tablas de etiquetas o cualquier otra cosa que quieras hacer con la frecuencia suficiente para que valga la pena escribir cómo hacerlo.
+Fuente: https://www.gnu.org/software/make/
+Pregunta Bonus 3 
+Un proyecto es una colección adaptable de elementos que se mantiene actualizada con los datos de GitHub y a su vez pueden realizar el seguimiento de incidencias, solicitudes de incorporación de cambios e ideas. En lugar de aplicar una metodología específica, un proyecto proporciona características flexibles que puedes personalizar en función de las necesidades y los procesos del equipo.
+
+Fuente: https://docs.github.com/es/issues/planning-and-tracking-with-projects
+
+Pregunta Bonus 4
+Sí resulta útil ya que al trabajar de manera independiente del código principal podemos entender su utilidad sin necesidad de leer toda la implementación, facilitando el uso del programa:
+Por ejemplo la función “Calcular_promedio” nos indica sin duda alguna que su función será el cálculo del promedio a través de las notas ingresadas de cada estudiante
+En caso de no documentarlas nos enfrentaríamos a una revisión exhaustiva del código en su totalidad, lo cual puede llevar a cometer errores importantes que afecten la funcionalidad de todo el programa.
+Fuente: https://learn.microsoft.com/es-es/cpp/cpp/functions-cpp?view=msvc-170
+
+Pregunta Bonus 5
+Podemos observar que estas herramientas son fundamentales tanto para funcionalidad como dar a conocer el proyecto, puesto que se abarca desde explicaciones (README) hasta organización mediante Projects, sin obviar la importancia de las funciones y Makefila a la hora de crear y ejecutar partes fundamentales del código, haciendo que en conjunto todo resulte en un programa más completo y fácil de entender.
+ 
+
